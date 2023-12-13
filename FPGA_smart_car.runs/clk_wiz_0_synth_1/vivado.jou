@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Dec  4 04:42:42 2023
+# Process ID: 5308
+# Current directory: C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On: lgy, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16828 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace
