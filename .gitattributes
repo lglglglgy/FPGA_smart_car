@@ -1,0 +1,3 @@
+*.v linguist-language=Verilog
+*.ico linguist-language=Verilog
+
