@@ -1,6 +1,6 @@
 //主文件
 
-module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, pwdn, xclk, vga_hsync, vga_vsync, vga_r, vga_g, vga_b, sys_clock, sseg, an ,lr[1:0]);
+module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, pwdn, xclk, vga_hsync, vga_vsync, vga_r, vga_g, vga_b, sys_clock, sseg, an ,lr,flash_open);
    input        pclk;
    input        vsync;
    input        href;
@@ -23,6 +23,7 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
    // output [6:0] sseg2;
    output [7:0] an;
    output [1:0] lr;
+   input flash_open;
    // output [7:0] an2;
    // output reg [7:0] left_pixel_count;
    // output reg [7:0] middle_pixel_count;
@@ -106,6 +107,7 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
    
    reg_config configs(
       .clk_25m(clk_25m),
+      .flash_open(flash_open),
       .camera_rstn(reset_t),
       .initial_en(initial_en_t),
       .reg_conf_done(config_finished),
@@ -123,7 +125,7 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
    //    wire [7:0] sum;   
    seg_disp diap1(
       .a(20'b0),
-      .b(middle_pixel_count),
+      .b({4'b0000,speed}),
       .clk(sys_clock),
       .rst(i),
       .sseg(sseg),

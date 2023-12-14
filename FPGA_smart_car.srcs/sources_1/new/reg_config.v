@@ -1,6 +1,7 @@
 
 module reg_config(     
 		  input clk_25m,
+		  input flash_open,
 		  input camera_rstn,
 		  input initial_en,
 		  output reg_conf_done,
@@ -55,7 +56,7 @@ begin
    end
    else begin
       if(reg_conf_done_reg==1'b0) begin          //���camera��ʼ��δ���
-			  if(reg_index<304) begin               //����ǰ302���Ĵ���
+			  if(reg_index<250+54*flash_open) begin               //����ǰ302���Ĵ���
 					 case(config_step)
 					 0:begin
 						i2c_data<={8'h78,reg_data};       //OV5640 IIC Device address is 0x78   

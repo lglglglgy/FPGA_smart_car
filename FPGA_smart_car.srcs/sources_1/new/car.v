@@ -10,9 +10,9 @@ module car_left_or_right (
         if (rst)
             lr <= 2'b00; 
         else
-        if (right_pixel_count  > left_pixel_count + 20'd1000 )
+        if (right_pixel_count  > left_pixel_count + 20'd4000 )
             lr <= 2'b10;
-        else if (left_pixel_count > right_pixel_count + 20'd1000 )
+        else if (left_pixel_count > right_pixel_count + 20'd4000 )
             lr <= 2'b01;
         else
             lr <= 2'b11;
