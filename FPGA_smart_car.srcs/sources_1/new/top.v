@@ -47,6 +47,7 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
    assign xclk = clk_25m;
    assign reset = reset_t;
    assign rst_n_not = (~(rst_n));
+   wire [2:0] speed;
    
    blk_mem_gen_0 bram(
       .clka(pclk),
@@ -128,8 +129,17 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
       .sseg(sseg),
       .an(an)
    );
-   car car1(
+   car_left_or_right car_left_or_right_ctrl(
       .lr(lr),
+      .clk(clk_25m),
+      .rst(i),
+      .left_pixel_count(left_pixel_count),
+      .middle_pixel_count(middle_pixel_count),
+      .right_pixel_count(right_pixel_count)
+   );
+  
+   car_run_or_stop car_run_or_stop_ctrl(
+      .speed(speed),
       .clk(clk_25m),
       .rst(i),
       .left_pixel_count(left_pixel_count),

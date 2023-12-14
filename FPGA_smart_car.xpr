@@ -95,6 +95,15 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/car.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.srcs/sources_1/new/car.v"/>
+          <Attr Name="ImportTime" Val="1702474869"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/i2c_com.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.srcs/sources_1/new/i2c_com.v"/>
@@ -144,16 +153,6 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.srcs/sources_1/new/top.v"/>
           <Attr Name="ImportTime" Val="1702471636"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/car.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="C:/Users/liguoyuan/Desktop/Xilinx-NEXYS4_DDR-Drives-OV5640-master/Camera.srcs/sources_1/new/car.v"/>
-          <Attr Name="ImportTime" Val="1702474869"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
