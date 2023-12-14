@@ -24,7 +24,7 @@
     <Object name="xc7a100t_0" gui_info="">
       <Properties Property="FULL_PROBES.FILE" value=""/>
       <Properties Property="PROBES.FILE" value=""/>
-      <Properties Property="PROGRAM.HW_BITSTREAM" value="D:/fpga/Vivado/2023.1/data/xicom/cfgmem/bitfile/bpi_xc7a100t_pullnone.bit"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/top.bit"/>
       <Properties Property="PROGRAM.HW_CFGMEM_PART" value="28f00am29ew-bpi-x16"/>
       <Properties Property="SLR.COUNT" value="1"/>
     </Object>

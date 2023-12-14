@@ -41,9 +41,9 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
    wire         reset_t;
    wire         initial_en_t;
    wire         rst_n_not;
-   wire [7:0]   middle_pixel_count;
-   wire [7:0]   left_pixel_count;
-   wire [7:0]   right_pixel_count;
+   wire [19:0]   middle_pixel_count;
+   wire [19:0]   left_pixel_count;
+   wire [19:0]   right_pixel_count;
    assign xclk = clk_25m;
    assign reset = reset_t;
    assign rst_n_not = (~(rst_n));
