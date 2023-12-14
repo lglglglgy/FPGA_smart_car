@@ -1,11 +1,16 @@
 # FPGA_smart_car
 # Course Design Assignment
-
 This repository contains my course design assignment. The project is divided into three main parts:
 
 1. Configuration and image acquisition of OV5640
 2. Real-time VGA image display and target detection
 3. Control of a small car
+## Here is the inventory of equipment:
+
+1. The OV5640 camera module
+2. Ultrasonic distance measurement module (To be confirmed)
+3. The ARTIX-A7-100T FPGA board
+
 
 ## File Structure
 
