@@ -1,6 +1,6 @@
 //主文件
 
-module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, pwdn, xclk, vga_hsync, vga_vsync, vga_r, vga_g, vga_b, sys_clock, sseg, an ,lr,flash_open);
+module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, pwdn, xclk, vga_hsync, vga_vsync, vga_r, vga_g, vga_b, sys_clock, sseg, an ,lr,flash_open,pwm);
    input        pclk;
    input        vsync;
    input        href;
@@ -34,6 +34,8 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
    wire         clk_25m;
    wire         clk_50m;
    wire         o_t;
+   output [1:0]   pwm;
+   wire [15:0]  speed_code;
    wire [0:0]   we_t;
    wire [11:0]  dout_t;
    wire [17:0]  addr_t;
@@ -148,5 +150,21 @@ module top(pclk, vsync, href, d, i, rst_n, config_finished, sioc, siod, reset, p
       .middle_pixel_count(middle_pixel_count),
       .right_pixel_count(right_pixel_count)
    );
+   speed_code speed_code_ctrl(
+      .speed(speed),
+      .lr(lr),
+      .speed_code(speed_code)
+   );
+   car_pwm car_pwm_ctrl1(
+      .pwm(pwm[0]),
+      .clk(clk_50m),
+      .duty(speed_code[15:8])
+   );
+   car_pwm car_pwm_ctrl2(
+      .pwm(pwm[1]),
+      .clk(clk_50m),
+      .duty(speed_code[7:0])
+   );
+
 
 endmodule

@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 5
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
@@ -95,6 +94,7 @@ read_verilog -library xil_defaultlib {
   D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_capture.v
   D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_vga.v
   D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/power_on_delay.v
+  D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/pwm.v
   D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v
   D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v
 }

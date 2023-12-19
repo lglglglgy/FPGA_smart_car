@@ -10,9 +10,9 @@ module car_left_or_right (
         if (rst)
             lr <= 2'b00; 
         else
-        if (right_pixel_count  > left_pixel_count + 20'd4000 )
+        if (right_pixel_count  > left_pixel_count + 20'd1000 )
             lr <= 2'b10;
-        else if (left_pixel_count > right_pixel_count + 20'd4000 )
+        else if (left_pixel_count > right_pixel_count + 20'd1000 )
             lr <= 2'b01;
         else
             lr <= 2'b11;
@@ -45,9 +45,9 @@ module car_run_or_stop (
         else if (total_pixel_count > 22'd10000)
             speed <= 3'b100;
         else if (total_pixel_count > 22'd1000)
-            speed <= 3'b101;
-        else if (total_pixel_count > 22'd500)
             speed <= 3'b110;
+        else if (total_pixel_count > 22'd500)
+            speed <= 3'b111;
         else if (total_pixel_count > 22'd100)
             speed <= 3'b111;
         else

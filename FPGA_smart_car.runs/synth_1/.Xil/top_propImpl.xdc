@@ -105,3 +105,7 @@ set_property src_info {type:XDC file:1 line:111 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN U14 [get_ports {lr[0]}]
 set_property src_info {type:XDC file:1 line:115 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN U11 [get_ports flash_open]
+set_property src_info {type:XDC file:1 line:118 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H4 [get_ports {pwm[1]}]
+set_property src_info {type:XDC file:1 line:119 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN H1 [get_ports {pwm[0]}]

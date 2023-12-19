@@ -114,3 +114,9 @@ set_property IOSTANDARD LVCMOS33 [get_ports {lr[0]}]
 
 set_property PACKAGE_PIN U11 [get_ports flash_open]
 set_property IOSTANDARD LVCMOS33 [get_ports flash_open]
+
+set_property PACKAGE_PIN H4 [get_ports {pwm[1]}]
+set_property PACKAGE_PIN H1 [get_ports {pwm[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pwm[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {pwm[0]}]
+

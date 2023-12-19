@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Dec 14 09:54:09 2023
-# Process ID: 26460
+# Start of session at: Sun Dec 17 14:20:49 2023
+# Process ID: 7012
 # Current directory: D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/top.vds
@@ -24,36 +24,36 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 21132
+INFO: [Synth 8-7075] Helper process launched with PID 14080
 INFO: [Synth 8-11241] undeclared symbol 'ack', assumed default net type 'wire' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v:26]
 INFO: [Synth 8-11241] undeclared symbol 'tr_end', assumed default net type 'wire' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v:29]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2306.840 ; gain = 409.797
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2314.340 ; gain = 410.484
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:3]
-INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/realtime/blk_mem_gen_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/realtime/clk_wiz_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/realtime/clk_wiz_0_stub.v:6]
-WARNING: [Synth 8-7071] port 'locked' of module 'clk_wiz_0' is unconnected for instance 'clk' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:64]
-WARNING: [Synth 8-7023] instance 'clk' of module 'clk_wiz_0' has 6 connections declared, but only 5 given [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:64]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/realtime/clk_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/realtime/clk_wiz_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'locked' of module 'clk_wiz_0' is unconnected for instance 'clk' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:66]
+WARNING: [Synth 8-7023] instance 'clk' of module 'clk_wiz_0' has 6 connections declared, but only 5 given [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:66]
 INFO: [Synth 8-6157] synthesizing module 'ov5640_capture' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_capture.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'ov5640_capture' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_capture.v:1]
 INFO: [Synth 8-6157] synthesizing module 'ov5640_vga' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_vga.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'ov5640_vga' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_vga.v:1]
 INFO: [Synth 8-6157] synthesizing module 'power_on_delay' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/power_on_delay.v:2]
 INFO: [Synth 8-6155] done synthesizing module 'power_on_delay' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/power_on_delay.v:2]
-WARNING: [Synth 8-7071] port 'camera2_rstn' of module 'power_on_delay' is unconnected for instance 'power' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:99]
-WARNING: [Synth 8-7023] instance 'power' of module 'power_on_delay' has 6 connections declared, but only 5 given [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:99]
+WARNING: [Synth 8-7071] port 'camera2_rstn' of module 'power_on_delay' is unconnected for instance 'power' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:101]
+WARNING: [Synth 8-7023] instance 'power' of module 'power_on_delay' has 6 connections declared, but only 5 given [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:101]
 INFO: [Synth 8-6157] synthesizing module 'reg_config' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v:2]
 INFO: [Synth 8-6157] synthesizing module 'i2c_com' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/i2c_com.v:2]
 INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/i2c_com.v:59]
 INFO: [Synth 8-6155] done synthesizing module 'i2c_com' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/i2c_com.v:2]
 INFO: [Synth 8-155] case statement is not full and has no default [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v:60]
 INFO: [Synth 8-6155] done synthesizing module 'reg_config' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v:2]
-WARNING: [Synth 8-7071] port 'clock_20k' of module 'reg_config' is unconnected for instance 'configs' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:108]
-WARNING: [Synth 8-7071] port 'reg_conf_done_reg' of module 'reg_config' is unconnected for instance 'configs' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:108]
-WARNING: [Synth 8-7023] instance 'configs' of module 'reg_config' has 9 connections declared, but only 7 given [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:108]
+WARNING: [Synth 8-7071] port 'clock_20k' of module 'reg_config' is unconnected for instance 'configs' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:110]
+WARNING: [Synth 8-7071] port 'reg_conf_done_reg' of module 'reg_config' is unconnected for instance 'configs' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:110]
+WARNING: [Synth 8-7023] instance 'configs' of module 'reg_config' has 9 connections declared, but only 7 given [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:110]
 INFO: [Synth 8-6157] synthesizing module 'seg_disp' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/BCD.v:1]
 INFO: [Synth 8-6157] synthesizing module 'bintobcd8' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/BCD.v:30]
 INFO: [Synth 8-6155] done synthesizing module 'bintobcd8' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/BCD.v:30]
@@ -64,9 +64,14 @@ INFO: [Synth 8-6157] synthesizing module 'car_left_or_right' [D:/fpga/FPGA_smart
 INFO: [Synth 8-6155] done synthesizing module 'car_left_or_right' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/car.v:1]
 INFO: [Synth 8-6157] synthesizing module 'car_run_or_stop' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/car.v:24]
 INFO: [Synth 8-6155] done synthesizing module 'car_run_or_stop' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/car.v:24]
+INFO: [Synth 8-6157] synthesizing module 'speed_code' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/pwm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'speed_code' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/pwm.v:22]
+INFO: [Synth 8-6157] synthesizing module 'car_pwm' [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/pwm.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'car_pwm' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/pwm.v:1]
 INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/top.v:3]
 WARNING: [Synth 8-7137] Register i2c_data_reg in module reg_config has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/reg_config.v:27]
 WARNING: [Synth 8-7137] Register an_reg in module scan_led_disp has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/BCD.v:79]
+WARNING: [Synth 8-7129] Port speed[0] in module speed_code is either unconnected or has no load
 WARNING: [Synth 8-7129] Port middle_pixel_count[19] in module car_left_or_right is either unconnected or has no load
 WARNING: [Synth 8-7129] Port middle_pixel_count[18] in module car_left_or_right is either unconnected or has no load
 WARNING: [Synth 8-7129] Port middle_pixel_count[17] in module car_left_or_right is either unconnected or has no load
@@ -89,26 +94,26 @@ WARNING: [Synth 8-7129] Port middle_pixel_count[1] in module car_left_or_right i
 WARNING: [Synth 8-7129] Port middle_pixel_count[0] in module car_left_or_right is either unconnected or has no load
 WARNING: [Synth 8-7129] Port initial_en in module reg_config is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2407.246 ; gain = 510.203
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2415.527 ; gain = 511.672
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2425.145 ; gain = 528.102
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2433.445 ; gain = 529.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2425.145 ; gain = 528.102
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2433.445 ; gain = 529.590
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2425.145 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2433.445 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk'
-Finished Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk'
-Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'bram'
-Finished Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'bram'
+Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk'
+Finished Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'clk'
+Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'bram'
+Finished Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'bram'
 Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/constrs_1/new/vga_cons.xdc]
 WARNING: [Vivado 12-507] No nets matched 'pclk_IBUF'. [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/constrs_1/new/vga_cons.xdc:74]
 Finished Parsing XDC File [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/constrs_1/new/vga_cons.xdc]
@@ -117,32 +122,32 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2537.883 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2546.141 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2537.883 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2546.141 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-26460-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/.Xil/Vivado-7012-lgy/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
 Applied set_property KEEP_HIERARCHY = SOFT for clk. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for bram. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3936] Found unconnected internal register 'd_latch_reg' and it is trimmed from '16' to '12' bits. [D:/fpga/FPGA_smart_car/FPGA_smart_car.srcs/sources_1/new/ov5640_capture.v:24]
 INFO: [Synth 8-802] inferred FSM for state register 'config_step_reg' in module 'reg_config'
@@ -155,7 +160,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'config_step_reg' in module 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'config_step_reg' using encoding 'one-hot' in module 'reg_config'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -169,7 +174,7 @@ Detailed RTL Component Info :
 	   2 Input   10 Bit       Adders := 2     
 	   3 Input   10 Bit       Adders := 1     
 	   2 Input    9 Bit       Adders := 2     
-	   2 Input    8 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
 	   2 Input    6 Bit       Adders := 1     
 	   2 Input    4 Bit       Adders := 10    
 	   2 Input    3 Bit       Adders := 2     
@@ -181,12 +186,12 @@ Detailed RTL Component Info :
 	               12 Bit    Registers := 2     
 	               10 Bit    Registers := 2     
 	                9 Bit    Registers := 2     
-	                8 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
 	                6 Bit    Registers := 1     
 	                4 Bit    Registers := 4     
 	                3 Bit    Registers := 1     
 	                2 Bit    Registers := 2     
-	                1 Bit    Registers := 16    
+	                1 Bit    Registers := 18    
 +---Muxes : 
 	   2 Input   20 Bit        Muxes := 8     
 	   4 Input   20 Bit        Muxes := 1     
@@ -215,7 +220,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -236,19 +241,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -266,37 +271,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -317,44 +322,44 @@ Report Cell Usage:
 |1     |blk_mem_gen |     1|
 |2     |clk_wiz     |     1|
 |3     |BUFG        |     2|
-|4     |CARRY4      |    64|
-|5     |LUT1        |    29|
-|6     |LUT2        |    72|
-|7     |LUT3        |    46|
-|8     |LUT4        |    55|
-|9     |LUT5        |    54|
-|10    |LUT6        |   156|
+|4     |CARRY4      |    68|
+|5     |LUT1        |    31|
+|6     |LUT2        |    74|
+|7     |LUT3        |    63|
+|8     |LUT4        |    63|
+|9     |LUT5        |    59|
+|10    |LUT6        |   158|
 |11    |MUXF7       |    39|
 |12    |MUXF8       |     7|
 |13    |FDCE        |    49|
 |14    |FDPE        |    11|
-|15    |FDRE        |   297|
+|15    |FDRE        |   315|
 |16    |IBUF        |    14|
-|17    |OBUF        |    36|
+|17    |OBUF        |    38|
 |18    |OBUFT       |     1|
 +------+------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 2537.883 ; gain = 528.102
-Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 2537.883 ; gain = 640.840
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 2546.141 ; gain = 529.590
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2546.141 ; gain = 642.285
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2537.883 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 110 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2546.141 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 114 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2537.883 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2546.141 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: abe78807
+Synth Design complete | Checksum: 56c23464
 INFO: [Common 17-83] Releasing license: Synthesis
-54 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
+58 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 2537.883 ; gain = 1039.562
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 2546.141 ; gain = 1041.141
 INFO: [Common 17-1381] The checkpoint 'D:/fpga/FPGA_smart_car/FPGA_smart_car.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Dec 14 09:54:45 2023...
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 17 14:21:25 2023...
