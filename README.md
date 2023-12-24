@@ -1,5 +1,9 @@
-## 课程设计作业。该项目主要分为三个部分：
+![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/2648a214-82ce-43d6-aaca-97b6faf73347)
 
+<hr>
+
+## 课程设计作业。该项目主要分为三个部分：
+上传代码是为了给想使用ov5640的同学一个参考，这部分很困难。如果有帮助就点个star吧！
 1. OV5640的配置和图像采集
 2. 实时VGA图像显示和目标检测
 3. 小车的控制
@@ -11,7 +15,9 @@
 3. ARTIX-A7-100T FPGA开发板
 
 ## 文件结构
+![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/f52f58ec-7595-4c04-819b-d7f30dfa8b25)
 
+<hr>
 
 | 文件名                | 描述                                  |
 |----------------------|---------------------------------------|
@@ -29,5 +35,6 @@
 |||
 |----------------------|---------------------------------------|
 |![IMG_20231219_220613](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/67272a6f-55a3-4f81-a90a-0e97d08d1c94) |![IMG_20231219_220623](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/f9af525f-9817-4ec6-8fdb-3d7f0aeedf1b) |
-| ![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/cb20e71c-64ce-405a-8bd5-bdec8905273d)|![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/f0a5a688-cecf-44f8-a3ef-d8fa97ed664a) |
+| ![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/cb20e71c-64ce-405a-8bd5-bdec8905273d)|![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/f7333da8-3f3c-47c0-aa9c-6cce13ac2df2)
+|
 
