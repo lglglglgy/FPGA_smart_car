@@ -1,3 +1,6 @@
+二次编辑（2025.7）：
+解除归档状态，有什么问题可以留在issue里面。这个项目毕竟是课程设计，还是有相当多的问题，比如vga显示的时候下方有红条纹，等等等等。如果大家有不错的解决方案也可以留一个PR？
+
 ![image](https://github.com/lglglglgy/FPGA_smart_car/assets/129643128/2648a214-82ce-43d6-aaca-97b6faf73347)
 
 <hr>
